@@ -4,7 +4,7 @@ from PIL import Image
 
 # Папки
 input_folder = 'photos/tiff'
-output_folder = 'esrgan_tif'
+output_folder = 'photo_opencv_resize'
 os.makedirs(output_folder, exist_ok=True)
 
 # Целевой DPI

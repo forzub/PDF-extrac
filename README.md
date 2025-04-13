@@ -30,6 +30,11 @@ deactivate
 ```
 
 # extract_pdf_images.py
+
+```bash
+python extract_pdf_images.py
+```
+
 - извлечение всех картинок из файла Albom.pdf в папку photos
 - формат изображений - jpg и tif
 - имя формируется порядком считывания и указанием разрешения в dpi.
@@ -37,6 +42,10 @@ deactivate
 
 # opencv_upscale.py 
 **увеличиваем чёткость и DPI через PIL и OpenCV.увеличиваем чёткость и DPI через PIL и OpenCV.**
+
+```bash
+python opencv_upscale.py
+```
 
 Конечно, без нейросетей результат будет скромнее, но можно выжать максимум из классических методов
 

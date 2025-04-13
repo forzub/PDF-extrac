@@ -1,5 +1,18 @@
 # Установка необходимых инструментов и зависимостей
 
+# 🧪 Активируем окружение
+
+Если ты его ещё не активировал, делаем так (из PowerShell или CMD):
+```bash
+isr_env\Scripts\activate
+```
+Если ругается PowerShell — тогда:
+
+```powershell
+powershell -ExecutionPolicy Bypass -NoExit -Command "isr_env\Scripts\activate"
+```
+
+
 # Шаг 1: Установка Python 3.9 (если у тебя ещё не установлен)
 - Перейди на [страницу загрузки Python](https://www.python.org/downloads/release/python-3911/).
 - Скачай установочный файл для Python 3.9.x.
@@ -133,16 +146,4 @@ Microsoft (R) C/C++ Optimizing Compiler Version XX.XX for x64
 
 
 
-
-# 🧪 Активируем окружение
-
-Если ты его ещё не активировал, делаем так (из PowerShell или CMD):
-```bash
-isr_env\Scripts\activate
-```
-Если ругается PowerShell — тогда:
-
-```powershell
-powershell -ExecutionPolicy Bypass -NoExit -Command "isr_env\Scripts\activate"
-```
 

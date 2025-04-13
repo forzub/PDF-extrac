@@ -63,7 +63,7 @@ pip install --upgrade pip setuptools wheel
 - подтягивать неофициальные или устаревшие зависимости, которые не собираются «из коробки».
 
 
-# Шаг 2: Установка Visual Studio Build Tools
+# Установка Visual Studio Build Tools
 Скачай и установи Visual Studio Build Tools для компиляции зависимостей, необходимых для некоторых библиотек, таких как torch и ISR.
 
 Перейди [по ссылке](https://visualstudio.microsoft.com/visual-cpp-build-tools/) для установки и выбери C++ build tools. Убедись, что ты выбрал следующие компоненты:

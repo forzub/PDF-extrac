@@ -91,7 +91,14 @@ SwinIR/
 Теперь выполни следующую команду прямо в PowerShell из папки SwinIR:
 
 ```powershell
-python main_test_swinir.py --task real_sr --scale 4 --large_model --model_path model_zoo/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth --folder_lq testsets/real_sr --tile 0
+python main_test_swinir.py ^
+--task real_sr ^
+--scale 4 ^
+--model_path model_zoo/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth ^
+--folder_lq testsets/real_sr ^
+--tile 128 ^
+--tile_overlap 32 ^
+--large_model
 ```
 🧠 Объяснение:
 - -task real_sr — задача увеличения реальных изображений.

@@ -64,7 +64,9 @@ wget https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BS
 ```
 
 Если wget не установлен — можно скачать вручную и положить в SwinIR/model_zoo/:
-[Скачать модель (003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-M_x4_GAN.pth) (или близкое название с L и x4 и GAN в имени)](https://github.com/JingyunLiang/SwinIR/releases)
+- [Скачать модель ](https://github.com/JingyunLiang/SwinIR/releases)
+- 003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-M_x4_GAN.pth
+- или близкое название с L и x4 и GAN в имени
 
 🗂 **Типовая структура внутри SwinIR, на всякий случай:**
 

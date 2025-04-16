@@ -1,4 +1,4 @@
-# SwinIR
+# [SwinIR](https://github.com/JingyunLiang/SwinIR/tree/main) 
 
 ## 🚧 Особенности установки:
 - Нет pip-пакета:

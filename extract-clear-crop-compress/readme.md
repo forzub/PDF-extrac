@@ -80,3 +80,32 @@ python 3crop_pdf.py input.pdf cropped.pdf --left 1.5 --right 1.5 --top 2 --botto
 ```
 ❌ Ошибка: слишком большая обрезка на странице X
 ```
+
+## 4compress_pdf.py
+Скрипт 4compress_pdf.py предназначен для сжатия PDF-файла с помощью Ghostscript.
+
+Параметры командной строки:
+Чтобы запустить скрипт, укажи в командной строке:
+
+```
+python 4compress_pdf.py input.pdf output.pdf
+```
+где:
+
+input.pdf — путь к исходному PDF-файлу, который нужно сжать.
+
+output.pdf — путь к файлу, куда сохранить сжатую версию.
+
+Пример:
+```
+python 4compress_pdf.py report_original.pdf report_compressed.pdf
+```
+Важно:
+
+Убедись, что у тебя установлен Ghostscript, и команда gswin64c доступна в PATH. Это версия для Windows x64. Для других ОС название команды может быть другим, например gs.
+
+По умолчанию используется параметр -dPDFSETTINGS=/screen, который дает максимальное сжатие и минимальное качество. Можно изменить его на:
+
+/ebook — среднее качество.
+
+/printer — хорошее качество для печати.

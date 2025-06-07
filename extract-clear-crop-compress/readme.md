@@ -109,3 +109,42 @@ python 4compress_pdf.py report_original.pdf report_compressed.pdf
 /ebook — среднее качество.
 
 /printer — хорошее качество для печати.
+
+## 📦 Библиотеки и плагины
+|**Скрипт** |	**Импорты / Зависимости** |	**Установка через pip**|
+| 1extractor.py |	PyPDF2 |	pip install PyPDF2 |
+| 2remover.py |	PyPDF2 |	pip install PyPDF2 |
+| 3crop_pdf.py |	fitz (то же, что и PyMuPDF) |	pip install PyMuPDF |
+| 4compress_pdf.py |	subprocess, sys (стандартная б-ка), Ghostscript	| Установить Ghostscript отдельно |
+
+🛠️ Как установить всё автоматически при создании нового проекта
+Создай файл requirements.txt со следующим содержимым:
+
+txt
+Копировать
+Редактировать
+PyPDF2
+PyMuPDF
+Установи зависимости одной командой:
+
+bash
+Копировать
+Редактировать
+pip install -r requirements.txt
+Дополнительно: для 4compress_pdf.py нужно установить Ghostscript вручную:
+
+🔗 Установка Ghostscript:
+Windows: https://www.ghostscript.com/download/gsdnld.html
+
+Linux (Ubuntu/Debian):
+
+bash
+Копировать
+Редактировать
+sudo apt install ghostscript
+Mac:
+
+bash
+Копировать
+Редактировать
+brew install ghostscript
